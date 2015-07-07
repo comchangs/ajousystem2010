@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background: #252525;
+	font: .74em "±¼¸²", Arial, sans-serif;
+	line-height: 1.5em;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.logo span {
+	color: #65bcf5;
+	font: 20px;
+}
+
+h2 {
+	color: #65bcf5;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#wrap {
+/*margin: 10px auto;*/
+margin: auto;
+width: 500px;
+/*width: 724px;
+background: #fff url('images/midbg.jpg');
+background-repeat: repeat-y;*/
+}
+
+#top { 
+/*background: #fff url('images/topbg.jpg');*/
+height: 10px;
+}
+
+#content {
+padding: 0 0 10px 0;
+}
+/*#content {
+padding: 0 40px 0 40px;
+}*/
+
+/*#bottom {
+
+background: #fff url('images/botbg.jpg');
+height: 30px;
+}*/
+
+#bottom2 {
+
+/*background: #fff url('images/botbg.jpg');*/
+background: #808080; 
+/*border-bottom: 1px solid #E1E1E1;*/ 
+height: 10px;
+}
+
+
+.header {
+height: 131px;
+/*background: #85ACF7 url('images/hidr.jpg');*/
+}
+
+/*.header h1 { padding-left: 17px; padding-top: 22px; font-size: 22px; color: #FFF; }
+.header h1 a { font-size: 22px; color: #FFF; text-decoration: none;}
+.header h2 { padding-left: 17px; padding-top: 0px; font-size: 17px; color: #FFF; }*/
+
+.breadcrumbs { 
+    background: #808080; 
+	/*border-bottom: 1px solid #E1E1E1; */
+	padding: 5px;
+}
+	
+.middle {
+	float: left;
+	width: 100%;
+/*	margin: 0 10px 10px 0;*/
+	padding: 1% 1%;
+/*	text-align: justify;*/
+}
+
+.right {
+	float: left;
+	width: 30%;
+/*	margin: 0 10px;*/
+	padding: 1% 1%;
+	
+}
+
+.right ul {
+/*	padding: 20px 0 15px 20px;*/
+	margin:0;
+}
+
+.right li {
+	margin-bottom:5px;
+	list-style-type: square;
+	color: #3B6EBF;
+}
+
+.middle h2 { color: #3B6EBF; font-size: 16px; margin-bottom: 10px; margin-top: 10px;}
+.right h2 { color: #3B6EBF; font-size: 14px; margin-top: 15px;}
+
+
+#clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+}
+
+#footer {
+	text-align: center;
+	color: #666;
+}
+
+
+.login { font-weight:bold; }
+.warning { font-size:12pt; font-weight:bold; color:#FF3333; }
+
+input {
+	color: #555;
+	font: normal 1.1em  Verdana, Dotum, sans-serif;
+}
+
+.comment {	color: #777;	}
+.box {background : #f7f7f7; border : 1px solid #f0e9eb; padding : 15px; width: 300px;}

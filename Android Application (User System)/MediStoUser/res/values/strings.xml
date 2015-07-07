@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, intro!</string>
+    <string name="app_name">MediStoUserMode</string>
+	<string name="str_btn_cancel">취소</string>
+	<string name="str_btn_OK">확인</string>
+	<string name="str_btn_login">사용자 로그인</string>
+	<string name="str_btn_logout">LOGOUT</string>
+	<string name="str_usr_in">입고</string>
+	<string name="str_usr_out">출고</string>
+	<string name="str_usr_view">현황</string>
+	<string name="str_user_modify">PW변경</string>
+	<string name="str_temperature1">25%</string>
+	<string name="str_user_id">200620249</string>
+</resources>

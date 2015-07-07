@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">MediSto</string>
+    <string name="setting_main">설정화면</string>
+    <string name="str_login">관리자 로그인 :: 비밀번호를 입력하세요</string>
+    <string name="str_login_error">관리자 로그인 :: 비밀번호가 틀렸습니다!</string>
+    <string name="str_btn_login">관리자 로그인</string>
+    <string name="str_btn_cancle">취소</string>
+    <string name="str_btn_OK">확인</string>
+    <string name="str_resource">재고 현황</string>
+    <string name="str_setting">약품 환경 설정</string>
+    <string name="str_log">로그 확인</string>
+    <string name="str_admin_modify">PW 변경</string>
+    <string name="str_state">현재 상태</string>
+	<string name="str_btn_logout">LOGOUT</string>
+	<string name="str_temperature1">센서의 값을 읽고 있습니다.</string>
+	<string name="str_upgrade">추후 업그레이드 예정입니다.</string>
+	<string name="str_user">사용자 관리</string>
+	<string name="str_userdel">User 삭제</string>
+	<string name="str_usr_in">입고</string>
+	<string name="str_usr_out">출고</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ajou.sigma.medistouser"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".intro"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name="hwcontrol"></activity>
+<activity android:name="input"></activity>
+<activity android:name="input_code"></activity>
+<activity android:name="input_num"></activity>
+<activity android:name="login"></activity>
+<activity android:name="menu"></activity>
+<activity android:name="modify"></activity>
+<activity android:name="output"></activity>
+<activity android:name="output_code"></activity>
+<activity android:name="output_num"></activity>
+<activity android:name="item_increase"></activity>
+<activity android:name="item_decrease"></activity>
+<activity android:name="resource"></activity>
+</application>
+
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

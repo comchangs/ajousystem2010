@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<AbsoluteLayout android:id="@+id/widget0" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content">
+  <ImageButton android:id="@+id/out_image" android:layout_width="320px" android:layout_height="220px" android:layout_x="0px" android:layout_y="5px" /> 
+  <ImageView android:background="@drawable/opacity" android:layout_x="0px" android:layout_y="0px" android:layout_height="240px" android:layout_width="320px" /> 
+  <Button android:id="@+id/out_Button01" android:drawableLeft="@drawable/ok" android:text="@string/str_btn_OK" android:layout_width="100px" android:layout_height="40px" android:layout_x="110px" android:layout_y="120px" /> 
+</AbsoluteLayout>

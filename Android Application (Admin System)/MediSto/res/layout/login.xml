@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/str_login"
+	android:id="@+id/login_text"
+	/>
+<EditText
+	android:layout_width="120px"
+	android:layout_height="40px"
+	android:layout_y="30px"
+	android:layout_x="20px"
+	android:id="@+id/edit_password"
+	android:password="true"
+	/>
+<Button
+	android:id="@+id/btn_OK"
+	android:drawableLeft="@drawable/ok"
+	android:text="@string/str_btn_OK"
+	android:layout_width="100px" 
+    android:layout_height="40px"
+    android:layout_x="210px"
+    android:layout_y="160px"
+	/>
+<Button
+	android:id="@+id/btn_cancle"
+	android:drawableLeft="@drawable/cancel"
+	android:text="@string/str_btn_cancle"
+	android:layout_width="100px" 
+    android:layout_height="40px"
+    android:layout_x="210px"
+    android:layout_y="200px"
+	/>
+	
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20px" android:layout_y="80px">
+	<Button
+	android:id="@+id/btn_num7"
+	android:text="7"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+	<Button
+	android:id="@+id/btn_num8"
+	android:text="8"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+	<Button
+	android:id="@+id/btn_num9"
+	android:text="9"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20px" android:layout_y="120px">
+	<Button
+	android:id="@+id/btn_num4"
+	android:text="4"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+	<Button
+	android:id="@+id/btn_num5"
+	android:text="5"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+	<Button
+	android:id="@+id/btn_num6"
+	android:text="6"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20px" android:layout_y="160px">
+	<Button
+	android:id="@+id/btn_num1"
+	android:text="1"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+	<Button
+	android:id="@+id/btn_num2"
+	android:text="2"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+	<Button
+	android:id="@+id/btn_num3"
+	android:text="3"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+	/>
+</LinearLayout>
+	<Button
+	android:id="@+id/btn_num0"
+	android:text="0"
+	android:textStyle="bold"
+	android:layout_width="40px" 
+    android:layout_height="40px"
+    android:layout_y="200px"
+    android:layout_x="20px"
+	/>
+	<Button
+	android:id="@+id/btn_delete"
+	android:drawableLeft="@drawable/del"
+	android:text="DEL"
+	android:layout_width="80px" 
+    android:layout_height="40px"
+    android:layout_x="60px"
+    android:layout_y="200px"
+	/>
+</AbsoluteLayout>

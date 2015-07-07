@@ -1,0 +1,45 @@
+
+/* Layout Stylesheet */ 
+
+
+body{
+ font-family: arial;
+ margin: 0px;
+ padding:0;
+ background: #252525;
+ color: #808080;
+ }
+		 
+#lh-col{
+ position: absolute;
+ top: 20px;
+ left: 20px;
+ width: 180px;
+ border: 2px solid #000;
+ background: #808080;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+ height: 400px;
+ }
+
+#rh-col{
+ margin: 20px 20px 20px 220px;
+ border: 2px solid #000;
+ background: #ffffff;
+ color: #333333;
+ padding: 20px;
+ }
+
+table {
+ width: 100%;
+}
+
+td {
+	border-bottom: 1px solid #999999; 
+	 padding: 5px 5px 5px 5px;
+}
+
+#blank {
+	height: 10px;
+}

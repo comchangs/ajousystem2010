@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<Button
+	android:layout_width="106px" 
+	android:layout_height="100px" 
+	android:layout_x="0px"
+	android:layout_y="5px"
+	android:id="@+id/btn_state" 
+	android:paddingTop="15px"
+	android:drawableTop="@drawable/view" 
+	android:text="@string/str_state">
+</Button>
+<ImageButton android:background="@drawable/logo" android:id="@+id/btn_logo" android:layout_height="100px" android:layout_width="106px" android:layout_x="107px" android:layout_y="5px">
+</ImageButton>
+<Button
+	android:layout_width="106px" 
+	android:layout_height="100px" 
+	android:layout_x="214px"
+	android:layout_y="5px"
+	android:id="@+id/btn_setting" 
+	android:paddingTop="15px"
+	android:drawableTop="@drawable/setting" 
+	android:text="@string/str_setting">
+</Button>
+<Button 
+	android:layout_width="106px"
+	android:layout_height="100px"
+	android:layout_x="0px"
+	android:layout_y="105px"
+	android:id="@+id/btn_log"
+	android:paddingTop="15px"
+	android:drawableTop="@drawable/log" 
+	android:text="@string/str_log">
+</Button>
+<Button
+	android:layout_width="106px" 
+	android:layout_height="100px" 
+	android:layout_x="107px"
+	android:layout_y="105px"
+	android:id="@+id/btn_res"
+	android:paddingTop="15px"
+	android:drawableTop="@drawable/inventory" 
+	android:text="@string/str_resource">
+	</Button>
+<Button
+	android:layout_width="106px" 
+	android:layout_height="100px" 
+	android:layout_x="214px"
+	android:layout_y="105px"
+	android:id="@+id/btn_usr"
+	android:paddingTop="15px"
+	android:drawableTop="@drawable/user" 
+	android:text="@string/str_user">
+	</Button>
+<Button
+	android:layout_width="80px" 
+	android:layout_height="30px" 
+	android:drawableLeft="@drawable/key"
+	android:drawablePadding="3dp"
+	android:layout_x="160px"
+	android:layout_y="210px"
+	android:id="@+id/btn_admin_modify"
+	android:textSize="10px" 
+	android:text="@string/str_admin_modify">
+</Button>
+<Button
+	android:layout_width="80px" 
+	android:layout_height="30px" 
+	android:drawableLeft="@drawable/logout"
+	android:drawablePadding="3dp"
+	android:layout_x="240px"
+	android:layout_y="210px"
+	android:id="@+id/btn_logout"
+	android:textSize="10px" 
+	android:text="@string/str_btn_logout">
+</Button>
+</AbsoluteLayout>

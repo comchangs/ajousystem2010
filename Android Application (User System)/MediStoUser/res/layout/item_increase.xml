@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <TextView 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="입고수량을 입력하세요" 
+  android:id="@+id/login_text" /> 
+  <EditText 
+  android:layout_width="120px" 
+  android:layout_height="40px" 
+  android:layout_y="30px" 
+  android:layout_x="20px" 
+  android:id="@+id/inc_number" /> 
+  <Button 
+  android:id="@+id/btn_OK" 
+  android:drawableLeft="@drawable/invenin" 
+  android:text="입고" 
+  android:layout_width="100px" 
+  android:layout_height="40px" 
+  android:layout_x="210px" 
+  android:layout_y="160px" /> 
+  <Button 
+  android:id="@+id/btn_cancel" 
+  android:drawableLeft="@drawable/cancel" 
+  android:text="@string/str_btn_cancel" 
+  android:layout_width="100px" 
+  android:layout_height="40px" 
+  android:layout_x="210px" 
+  android:layout_y="200px" /> 
+ <LinearLayout 
+ android:id="@+id/LinearLayout01" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content" 
+ android:layout_x="20px" 
+ android:layout_y="80px">
+  <Button android:id="@+id/btn_num7" android:text="7" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  <Button android:id="@+id/btn_num8" android:text="8" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  <Button android:id="@+id/btn_num9" android:text="9" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  </LinearLayout>
+ <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20px" android:layout_y="120px">
+  <Button android:id="@+id/btn_num4" android:text="4" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  <Button android:id="@+id/btn_num5" android:text="5" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  <Button android:id="@+id/btn_num6" android:text="6" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  </LinearLayout>
+ <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20px" android:layout_y="160px">
+  <Button android:id="@+id/btn_num1" android:text="1" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  <Button android:id="@+id/btn_num2" android:text="2" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  <Button android:id="@+id/btn_num3" android:text="3" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" /> 
+  </LinearLayout>
+  <Button android:id="@+id/btn_num0" android:text="0" android:textStyle="bold" android:layout_width="40px" android:layout_height="40px" android:layout_y="200px" android:layout_x="20px" /> 
+  <Button android:id="@+id/btn_delete" android:drawableLeft="@drawable/del" android:text="DEL" android:layout_width="80px" android:layout_height="40px" android:layout_x="60px" android:layout_y="200px" /> 
+ <AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_height="100px" android:layout_y="50px" android:layout_width="140px" android:layout_x="165px">
+  <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="약 품 명 :" android:layout_width="wrap_content" android:layout_x="5px" android:layout_y="4px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/mediname" android:text="약 품 명" android:layout_width="wrap_content" android:layout_x="70px" android:layout_y="4px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="관리번호 :" android:layout_width="wrap_content" android:layout_x="5px" android:layout_y="16px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/mediid_in" android:text="1234" android:layout_width="wrap_content" android:layout_x="70px" android:layout_y="16px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="재 고 량 :" android:layout_width="wrap_content" android:layout_x="5px" android:layout_y="28px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/quantity_in" android:text="12" android:layout_width="wrap_content" android:layout_x="70px" android:layout_y="28px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="보관온도 :" android:layout_width="wrap_content" android:layout_x="5px" android:layout_y="46px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/temp_in" android:text="20 ~ 30" android:layout_width="wrap_content" android:layout_x="70px" android:layout_y="46px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="보관습도 :" android:layout_width="wrap_content" android:layout_x="5px" android:layout_y="58px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/humi_in" android:text="21 ~ 33" android:layout_width="wrap_content" android:layout_x="70px" android:layout_y="58px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="차광여부 :" android:layout_width="wrap_content" android:layout_x="5px" android:layout_y="70px" /> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/illu_in" android:text="필요" android:layout_width="wrap_content" android:layout_x="70px" android:layout_y="70px" /> 
+  </AbsoluteLayout>
+  </AbsoluteLayout>

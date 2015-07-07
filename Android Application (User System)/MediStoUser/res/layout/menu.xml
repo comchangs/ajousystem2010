@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <AbsoluteLayout android:id="@+id/AbsoluteLayout01"
+		android:layout_x="0px" android:layout_y="165px" android:layout_height="60px"
+		android:layout_width="320px" android:background="@drawable/sec1bg">
+		<ImageView android:layout_x="10px" android:layout_y="4px"
+			android:id="@+id/Temp1" android:baselineAlignBottom="false"
+			android:clickable="false" android:layout_height="16px"
+			android:layout_width="16px" android:background="@drawable/temnormal"></ImageView>
+		<ImageView android:layout_x="10px" android:layout_y="22px"
+			android:id="@+id/Humi1" android:baselineAlignBottom="false"
+			android:clickable="false" android:layout_height="16px"
+			android:layout_width="16px" android:background="@drawable/humnormal"></ImageView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_x="32px" android:layout_y="4px" android:layout_width="wrap_content"
+			android:id="@+id/tv_Temperature01" android:textSize="10px"
+			android:text="@string/str_temperature1"></TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_x="32px" android:layout_y="22px" android:layout_width="wrap_content"
+			android:textSize="10px" android:text="@string/str_temperature1"
+			android:id="@+id/tv_Humidity01"></TextView>			
+</AbsoluteLayout>
+		<TextView android:layout_y="10px" android:layout_width="wrap_content"
+			android:id="@+id/user_id" android:layout_x="80px" android:layout_height="wrap_content"
+			android:text="@string/str_user_id"></TextView>
+		<TextView android:layout_y="10px" android:layout_width="wrap_content"
+			android:id="@+id/TextView01" android:layout_x="150px" android:layout_height="wrap_content"
+			android:text="님 로그인 되었습니다."></TextView>
+<Button
+	android:layout_width="100px" 
+	android:layout_height="110px" 
+	android:layout_x="5px"
+	android:layout_y="45px"
+	android:id="@+id/inven_in" 
+	android:paddingTop="30px"
+	android:drawableTop="@drawable/invenin" 
+	android:text="@string/str_usr_in">
+</Button>
+<Button
+	android:layout_width="100px" 
+	android:layout_height="110px" 
+	android:layout_x="110px"
+	android:layout_y="45px"
+	android:id="@+id/inven_out" 
+	android:paddingTop="30px"
+	android:drawableTop="@drawable/invenout" 
+	android:text="@string/str_usr_out">
+</Button>
+<Button
+	android:layout_width="100px" 
+	android:layout_height="110px" 
+	android:layout_x="215px"
+	android:layout_y="45px"
+	android:id="@+id/inven_view" 
+	android:paddingTop="30px"
+	android:drawableTop="@drawable/invenview" 
+	android:text="@string/str_usr_view">
+</Button>
+<Button
+	android:layout_width="80px" 
+	android:layout_height="30px" 
+	android:drawableLeft="@drawable/key"
+	android:drawablePadding="3dp"
+	android:layout_x="5px"
+	android:layout_y="210px"
+	android:id="@+id/btn_usr_modify"
+	android:textSize="10px" 
+	android:text="@string/str_user_modify">
+</Button>
+<Button
+	android:layout_width="80px" 
+	android:layout_height="30px" 
+	android:drawableLeft="@drawable/logout"
+	android:drawablePadding="3dp"
+	android:layout_x="85px"
+	android:layout_y="210px"
+	android:id="@+id/btn_logout"
+	android:textSize="10px" 
+	android:text="@string/str_btn_logout">
+</Button>
+</AbsoluteLayout>

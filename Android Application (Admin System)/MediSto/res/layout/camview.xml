@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widge2342342345t0"
+	android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content">
+	<ImageView
+		android:id="@+id/image"
+		android:layout_width="320px"
+		android:layout_height="240px"
+		android:layout_x="0px"
+		android:layout_y="0px"/>
+	<Button
+	android:id="@+id/btn_camera_OK"
+	android:drawableLeft="@drawable/ok"
+	android:text="@string/str_btn_OK"
+	android:layout_width="100px" 
+    android:layout_height="40px"
+    android:layout_x="220px"
+    android:layout_y="200px"
+	/>	
+	<TextView
+	android:layout_height="wrap_content"
+	android:id="@+id/camera"
+	android:text="SECTION01"
+	android:layout_width="wrap_content"
+	android:layout_x="0px"
+	android:layout_y="0px"
+	android:textSize="20px" android:textColor="#FFFFFF"/>
+</AbsoluteLayout>

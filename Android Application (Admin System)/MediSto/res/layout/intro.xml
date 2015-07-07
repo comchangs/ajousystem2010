@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/introbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+<Button
+	android:id="@+id/btn_login"
+	android:text="@string/str_btn_login"
+	android:layout_width="150px" 
+    android:layout_height="40px"
+    
+    android:drawableLeft="@drawable/loginbtn"
+    android:drawablePadding="4dp"
+    android:layout_x="85px"
+    android:layout_y="160px"
+	android:focusable="false"/>
+</AbsoluteLayout>
